@@ -1,0 +1,8 @@
+#**/node_modules
+**/build
+.dockerignore
+docker.sh
+*.sh
+Dockerfile.dev
+package-lock.json
+README.md
