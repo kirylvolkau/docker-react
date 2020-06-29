@@ -5,6 +5,6 @@ COPY package.json .
 RUN npm install
 
 # we have volume mounting in the docker-compose
-# COPY . .
+COPY . .
 
 CMD ["npm","start"]
